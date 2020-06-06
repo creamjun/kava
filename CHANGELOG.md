@@ -34,9 +34,20 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 # Changelog
 
-## [Unreleased]
+## [Unreleased](https://github.com/Kava-Labs/kava/compare/v0.8.0...HEAD)
 
-## [v.0.3.2]
+## [v0.8.0] - 2020-06-05
+
+### State Machine Breaking
+
+* (sdk) Update to version v0.38.4 of the [cosmos-sdk](https://github.com/cosmos/cosmos-sdk/blob/v0.38.4/CHANGELOG.md)
+
+### Features
+
+* Add modules that comprise the [CDP system](https://github.com/Kava-Labs/kava/tree/v0.8.0/x).
+
+
+## [v0.3.2]
 
 [\#364] Use new BIP44 coin type in the CLI, retain support for the old one through a flag.
 
